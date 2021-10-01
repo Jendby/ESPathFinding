@@ -27,6 +27,7 @@ public class NamedGraphNode3D: GKGraphNode3D {
 }
 
 public class ESPathFinding {
+    public init() {}
     public struct Path {
         public var positions: [SIMD3<Float>]
         public var cost: Float
